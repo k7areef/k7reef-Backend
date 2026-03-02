@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_project_project_screens",
+  "info": {
+    "displayName": "Project Screen"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 255,
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "minLength": 10,
+      "maxLength": 2000
+    }
+  },
+  "config": {}
+}
