@@ -24,6 +24,11 @@
       "minLength": 2,
       "maxLength": 50
     },
+    "incoming": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
     "level": {
       "type": "integer",
       "required": true,
