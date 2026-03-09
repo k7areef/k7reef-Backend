@@ -15,7 +15,18 @@ module.exports = [
       },
     },
   },
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: [
+        'https://k7reef-frontend.vercel.app',
+        'http://localhost:5173'
+      ],
+      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
+      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
+      keepHeaderOnError: true,
+    },
+  },
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
