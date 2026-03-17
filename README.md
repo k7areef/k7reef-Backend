@@ -1,3 +1,17 @@
+# ⚠️ Project Migrated to Supabase
+
+> [!IMPORTANT]
+> This Strapi backend is no longer maintained. > The backend for this project has been fully migrated to Supabase for better performance and scalability.
+
+<details>
+<summary><b>Click here to see the old Strapi documentation (Deprecated)</b></summary>
+
+### `develop`
+Start your Strapi application with autoReload enabled.
+
+```bash
+npm run develop
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
